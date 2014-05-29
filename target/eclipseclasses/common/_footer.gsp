@@ -17,8 +17,8 @@
 			<div class="col-footer col-md-5 col-xs-12">
 				<h3><g:message code="footer.label.Contacts"/></h3>
 				<p class="contact-us-details">
-	 				<b><g:message code="contact.info.label.Address.colon"/></b> <g:message code="contact.info.data.Address"/><br/>
-	 				<b><g:message code="contact.info.label.Phone.colon"/></b> <g:message code="contact.info.data.Phone"/><br/>
+<%--	 				<b><g:message code="contact.info.label.Address.colon"/></b> <g:message code="contact.info.data.Address"/><br/>--%>
+<%--	 				<b><g:message code="contact.info.label.Phone.colon"/></b> <g:message code="contact.info.data.Phone"/><br/>--%>
 	 				<b><g:message code="contact.info.label.Email.colon"/></b> <g:message code="contact.info.data.Email"/>
 	 			</p>
 			</div>

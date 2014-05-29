@@ -15,7 +15,8 @@ class HomeController {
 	}
 	
 	def Faq() {
-		render(view: "/faq", model: [activePage: "faqPage"]);
+		ArrayList<FaqQuestion> questions = new ArrayList<FaqQuestion>(FaqQuestion.list());
+		render(view: "/faq", model: [activePage: "faqPage", questions: questions]);
 	}
 	
 }

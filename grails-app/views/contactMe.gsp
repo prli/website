@@ -23,7 +23,7 @@
 	        			<!-- Begin Contact Info -->
 	        			<p class="contact-us-details">
 			 				<b><g:message code="contact.info.label.Address.colon"/></b> <g:message code="contact.info.data.Address"/><br/>
-			 				<b><g:message code="contact.info.label.Phone.colon"/></b> <g:message code="contact.info.data.Phone"/><br/>
+<%--			 				<b><g:message code="contact.info.label.Phone.colon"/></b> <g:message code="contact.info.data.Phone"/><br/>--%>
 			 				<b><g:message code="contact.info.label.Email.colon"/></b> <g:message code="contact.info.data.Email"/>
 			 			</p>
 	        			<!-- End Contact Info -->
@@ -32,7 +32,6 @@
 	    	</div>
 	    </div>
 
-		
         <!-- Javascripts Begin -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <g:javascript src="jquery-1.9.1.min.js"></g:javascript>
