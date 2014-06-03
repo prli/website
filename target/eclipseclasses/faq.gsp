@@ -25,14 +25,13 @@
 							<g:each in="${questions}" var="faqQuestion" status="i">
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse${i}">
 										${ faqQuestion.question }
 									</a>
 								</div>
-								<div id="collapse11" class="accordion-body collapse">
+								<div id="collapse${i}" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>${ faqQuestion.answer }</p>
+										<div class="answer"><p>${ faqQuestion.answer }</p></div>		
 									</div>
 								</div>
 							</div>

@@ -2,5 +2,7 @@ package website
 
 class AdminController {
 
-    def index() { }
+    def index() { 
+		render 'Secure access only'
+	}
 }

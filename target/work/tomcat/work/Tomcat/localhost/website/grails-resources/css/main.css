@@ -2530,7 +2530,7 @@ span.color-red {
 --------------------------------------------------------------------------*/
 .menuextras {
   font-size: 0.85em;
-  height: 30px;
+/*   height: 30px; */
 }
 .menuextras ul {
   margin: 0;

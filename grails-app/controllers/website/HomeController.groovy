@@ -1,22 +1,24 @@
 package website
 
+import grails.plugin.springsecurity.annotation.Secured
+
+@Secured(['permitAll'])
 class HomeController {
 
-    def Index() {
+    def index() {
 		render(view:"/index", model: [activePage: "homePage"]);
 	}
 	
-	def AboutMe() {
+	def aboutMe() {
 		render(view:"/aboutMe", model: [activePage: "aboutMePage"]);
 	}
 	
-	def ContactMe() {
+	def contactMe() {
 		render(view: "/contactMe", model: [activePage: "contactMePage"]);
 	}
 	
-	def Faq() {
-		ArrayList<FaqQuestion> questions = new ArrayList<FaqQuestion>(FaqQuestion.list());
-		render(view: "/faq", model: [activePage: "faqPage", questions: questions]);
+	def faq() {
+		render(view: "/faq", model: [activePage: "faqPage", questions: FaqQuestion.list()]);
 	}
 	
 }

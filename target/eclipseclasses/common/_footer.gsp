@@ -8,7 +8,7 @@
 				<ul class="no-list-style footer-navigate-section">
 					<li><g:link controller="home" action="index"><g:message code="global.menu.page.name.label.Home"/></g:link></li>
 					<li><g:link controller="home" action="aboutMe"><g:message code="global.menu.page.name.label.About.me"/></g:link></li>
-					<li><g:link controller="developingWithGrails"><g:message code="global.menu.page.name.label.Developing.with.grails"/></g:link></li>
+					<li><g:link controller="rpg"><g:message code="global.menu.page.name.label.101.floors"/></g:link></li>
 					<li><g:link controller="home" action="contactMe"><g:message code="global.menu.page.name.label.Contact.me"/></g:link></li>
 					<li><g:link controller="home" action="faq"><g:message code="global.menu.page.name.label.Faq"/></g:link></li>
 				</ul>
@@ -17,7 +17,7 @@
 			<div class="col-footer col-md-5 col-xs-12">
 				<h3><g:message code="footer.label.Contacts"/></h3>
 				<p class="contact-us-details">
-<%--	 				<b><g:message code="contact.info.label.Address.colon"/></b> <g:message code="contact.info.data.Address"/><br/>--%>
+	 				<b><g:message code="contact.info.label.Address.colon"/></b> <g:message code="contact.info.data.Address"/><br/>
 <%--	 				<b><g:message code="contact.info.label.Phone.colon"/></b> <g:message code="contact.info.data.Phone"/><br/>--%>
 	 				<b><g:message code="contact.info.label.Email.colon"/></b> <g:message code="contact.info.data.Email"/>
 	 			</p>
@@ -42,9 +42,11 @@
 </div>
 
 <script>
+
 	$("#social-medias a").click(function(){
-		windows.open($(this).);
+		windows.open($(this));
 	});
+
 </script>
 
 <r:layoutResources/>
