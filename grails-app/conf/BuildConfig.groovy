@@ -41,13 +41,17 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenCentral()
 		mavenRepo 'http://repo.spring.io/milestone'
+		mavenRepo "http://repository.codehaus.org"
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
-        //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
 
     dependencies {
+//		compile('org.codehaus.groovy.modules.http-builder:http-builder:0.5.0') {
+//		    excludes "commons-logging", "xml-apis", "groovy"
+//		}
+
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         // runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
@@ -61,6 +65,7 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.0.3"
         compile ':cache:1.1.2'
 		compile ':spring-security-core:2.0-RC2'
+		compile ":rest:0.8"
 		
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.13" // or ":hibernate4:4.3.5.1"

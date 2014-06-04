@@ -19,7 +19,7 @@
 		
         <!-- Javascripts Begin -->
         <g:javascript src="modernizr-2.6.2-respond-1.1.0.min.js" />
-<%--        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>--%>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <g:javascript src="bootstrap.min.js"></g:javascript>
         <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
         <g:javascript src="jquery.fitvids.js"></g:javascript>
