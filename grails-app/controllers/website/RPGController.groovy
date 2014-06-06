@@ -1,6 +1,6 @@
 package website
 import grails.plugin.springsecurity.annotation.Secured
-import website.monster.Monster;
+import website.rpg.Monster;
 
 @Secured(['permitAll'])
 class RpgController {

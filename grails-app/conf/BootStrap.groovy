@@ -2,7 +2,7 @@ import website.FaqQuestion
 import website.Role
 import website.User
 import website.UserRole
-import website.monster.Monster;
+import website.rpg.Monster;
 
 class BootStrap {
 

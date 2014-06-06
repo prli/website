@@ -32,6 +32,9 @@
 					<g:if test="${activePage == 'faqPage'}"><li class="active"></g:if><g:else><li></g:else>
 						<g:link controller="home" action="faq"><g:message code="global.menu.page.name.label.Faq"/></g:link>
 					</li>
+					<g:if test="${activePage == 'adminPage'}"><li class="active"></g:if><g:else><li></g:else>
+						<g:link controller="admin"><g:message code="global.menu.page.name.label.Admin"/></g:link>
+					</li>
 				</ul>
 			</nav>
 		</div>

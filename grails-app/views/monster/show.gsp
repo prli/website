@@ -1,5 +1,5 @@
 
-<%@ page import="website.monster.Monster" %>
+<%@ page import="website.rpg.Monster" %>
 <!DOCTYPE html>
 <html>
 	<head>
